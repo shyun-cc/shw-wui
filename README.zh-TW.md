@@ -1,6 +1,6 @@
 # shw-wui
 
-[English](./README.md) | [简体中文](./README.zh-CN.md) | 繁體中文
+[简体中文](./README.md) | [English](./README.en.md) | 繁體中文
 
 基於 Vue 3 和 Element Plus 的桌面管理介面元件及應用腳手架。元件庫包含導航框架、表格、查詢面板、表單、詳情檢視和上傳元件。
 
