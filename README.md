@@ -1,5 +1,7 @@
 # shw-wui
 
+English | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md)
+
 Desktop admin components and a starter application for Vue 3 and Element Plus. The library includes a navigation shell, tables, query panels, forms, detail views and upload components.
 
 ## Develop
@@ -31,7 +33,7 @@ pnpm dev
 
 The starter includes the built component library so it can be installed without a separately published npm package.
 
-## 鸣谢与第三方版权（Acknowledgments & Licenses）
+## Acknowledgments & Licenses
 
 - [Vue 3](https://github.com/vuejs/core) and [Element Plus](https://github.com/element-plus/element-plus) provide the UI runtime and base components. Both are MIT-licensed. [Vue Router](https://github.com/vuejs/router) and [Pinia](https://github.com/vuejs/pinia) are MIT-licensed peers for routing and state. [Apache ECharts](https://github.com/apache/echarts) is an optional charting peer under Apache-2.0 with its own third-party notices.
 - Thanks to [Pure Admin](https://github.com/pure-admin) for [pure-admin-thin](https://github.com/pure-admin/pure-admin-thin), [pure-admin-table](https://github.com/pure-admin/pure-admin-table), [pure-admin-descriptions](https://github.com/pure-admin/pure-admin-descriptions) and [@pureadmin/utils](https://www.npmjs.com/package/@pureadmin/utils). The library incorporates and adapts portions of these MIT-licensed projects. [Third-party notices](THIRD_PARTY_NOTICES.md) identify the affected files and preserve the original copyright and license terms.
