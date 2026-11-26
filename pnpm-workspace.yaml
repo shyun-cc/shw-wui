@@ -1,0 +1,8 @@
+packages:
+  - packages/*
+  - playgrounds/*
+  - templates/*
+allowBuilds:
+  esbuild: true
+  vue-demi: true
+linkWorkspacePackages: true

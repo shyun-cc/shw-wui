@@ -1,0 +1,53 @@
+{
+  "upstream": "https://github.com/pure-admin/pure-admin-utils",
+  "version": "2.6.4",
+  "gitHead": "56e7946b96f955ece198c1ee78da8547d8f0ee06",
+  "sourceKind": "official-npm-published-runtime",
+  "tarball": "https://registry.npmjs.org/@pureadmin/utils/-/utils-2.6.4.tgz",
+  "integrity": "sha512-X3IIolddqLsBAiFHz3uTybMt31eJF7cT9MIo8lbxXoaK08XpC0Ubt+uJMgsKttlLAucYpEXUGfbp23qkcD+04Q==",
+  "tarballSha256": "3acf3ee5fce757f9c749ce81ee04ff618b90b92e48667f39a258374c381e21d7",
+  "retrievedAt": "2026-10-28",
+  "sourceLimitation": "Official GitHub repository, commit API, raw source and codeload archive returned HTTP 404. No original TypeScript source or source maps were present in npm package. gitHead is npm metadata, not independently verified Git content.",
+  "files": [
+    {
+      "path": "vendor/pureadmin-utils/npm-2.6.4/LICENSE",
+      "sha256": "0570e976355286648229b69aa1ba7a222e53f25c6b4ffe14f97deddfaf1bd935"
+    },
+    {
+      "path": "vendor/pureadmin-utils/npm-2.6.4/README.en-US.md",
+      "sha256": "305249c6fd6ddceb11df879f0ba1f7a5b563292c79e245004a25013b53d28668"
+    },
+    {
+      "path": "vendor/pureadmin-utils/npm-2.6.4/README.md",
+      "sha256": "bd01f938016d56d2cffde93c371cb0dc77c52d96c4808f12ade4c75bf184cc2b"
+    },
+    {
+      "path": "vendor/pureadmin-utils/npm-2.6.4/dist/alias.d.mts",
+      "sha256": "2eba6e14a21ff03de1d1374921b75c43ed3aabc2bbe69d575531a08fee385983"
+    },
+    {
+      "path": "vendor/pureadmin-utils/npm-2.6.4/dist/alias.mjs",
+      "sha256": "ffb8ae68fda0222e47efaa14ab3bc0920ea18a35a4df842fb0b5aac067e28639"
+    },
+    {
+      "path": "vendor/pureadmin-utils/npm-2.6.4/dist/cjs.js",
+      "sha256": "b42e6ad896c706af093854d871a4b541a00213f387976a7f5c4626c3bffef6e9"
+    },
+    {
+      "path": "vendor/pureadmin-utils/npm-2.6.4/dist/iife.global.js",
+      "sha256": "053f3c166844417e1be56743e6ee95fa2b2d91f1fc5c673fe6ef8edd8a8d84d0"
+    },
+    {
+      "path": "vendor/pureadmin-utils/npm-2.6.4/dist/index.d.mts",
+      "sha256": "37350bb86a5c4673acc30eeaafee7907f523b86c049f72b2957d240f96e9a3c7"
+    },
+    {
+      "path": "vendor/pureadmin-utils/npm-2.6.4/dist/index.mjs",
+      "sha256": "10df2b8d76bea180fce13be71427a685be7fc64ef43c6ba7c64e533431342f65"
+    },
+    {
+      "path": "vendor/pureadmin-utils/npm-2.6.4/package.json",
+      "sha256": "02571ffac2c1098fe145cdf3ea7eea0171fb833df685416be272b7f9b9c7763f"
+    }
+  ]
+}

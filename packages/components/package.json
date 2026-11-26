@@ -1,0 +1,66 @@
+{
+  "name": "@shwkj/shw-wui",
+  "version": "0.5.0",
+  "description": "自有 PC 后台框架、页面组件与项目模板",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist",
+    "bin",
+    "starter",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./style.css": "./dist/shw-wui.css",
+    "./utils": {
+      "types": "./dist/owned-utils/index.d.ts",
+      "import": "./dist/utils.js"
+    },
+    "./utils/echarts": {
+      "types": "./dist/owned-utils/echarts.d.ts",
+      "import": "./dist/echarts.js"
+    },
+    "./utils/alias": {
+      "types": "./dist/owned-utils/alias.d.ts",
+      "import": "./dist/alias.js"
+    }
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "build": "vite build && vue-tsc -p tsconfig.json --declaration --emitDeclarationOnly --outDir dist && node ../../tools/prepare-package.mjs",
+    "typecheck": "vue-tsc -p tsconfig.json --noEmit"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0",
+    "element-plus": "^2.11.0",
+    "vue-router": "^4.6.0",
+    "pinia": "^3.0.0",
+    "echarts": "^5.4.3 || ^6.0.0"
+  },
+  "devDependencies": {
+    "vue": "3.5.22",
+    "element-plus": "2.11.5",
+    "vite": "7.1.0",
+    "@vitejs/plugin-vue": "6.0.1",
+    "vue-tsc": "3.1.0",
+    "typescript": "5.9.3",
+    "vue-router": "4.6.3",
+    "pinia": "3.0.3",
+    "echarts": "6.0.0",
+    "@shwkj/shw-ui-tokens": "https://github.com/shyun-cc/shw-ui-tokens/releases/download/v0.33.1/shwkj-shw-ui-tokens-0.33.1.tgz"
+  },
+  "bin": {
+    "shw-wui-create": "bin/create.mjs"
+  },
+  "peerDependenciesMeta": {
+    "echarts": {
+      "optional": true
+    }
+  }
+}

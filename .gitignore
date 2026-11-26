@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.cache/
+*.tsbuildinfo
+pnpm-publish-summary.json
+*.tgz
+.npmrc.local
+packages/components/starter/
+packages/components/LICENSE
+.env
+.env.*.local
+.DS_Store
+*.log
+.npmrc

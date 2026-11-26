@@ -1,0 +1,29 @@
+{
+  "package": "@pureadmin/table",
+  "version": "3.3.0",
+  "repository": "https://github.com/pure-admin/pure-admin-table",
+  "commit": "8f93cb25a3482a2132c32631fb21fb8ad2ec7b04",
+  "sourceArchive": "https://codeload.github.com/pure-admin/pure-admin-table/tar.gz/8f93cb25a3482a2132c32631fb21fb8ad2ec7b04",
+  "sourceArchiveSha256": "43de1fe4b98a3bc29575b039f8cf65069b381327dbb6923285b3db06eb52ca98",
+  "npmIntegrity": "sha512-06vp/IWUOsvt1zpPXMbVvGfrBWKBv5O1q3nZIlbSFJejJNWHG1HU+EWGuCzJD6KCsQdwNettv1wUuAleH4+YQQ==",
+  "files": {
+    "LICENSE": "0570e976355286648229b69aa1ba7a222e53f25c6b4ffe14f97deddfaf1bd935",
+    "package.json": "10f1635442fbf1f2a1b99d055de0c1479c0e141fb8a02a059d9214e38f37ad43",
+    "packages/components/renderer.tsx": "742db25371e15dc20b3e2f9e13b7ba71151ce4f6d1db28cd7cee5026a772b200",
+    "packages/components/table/index.tsx": "5cdc3cb5c4c57cdd554a718f47187bc4acd63026201ab4ec9b1746599508d3d5",
+    "packages/components/table/props.ts": "dba382088bd8d5714e7946a98a1aeb784658df39ce45cce5cad84337a326214b",
+    "packages/index.ts": "a178c4d92111a8c4c1a30d9a49419d870c6a8e7ae80a5cf076fd7b9828a6c969",
+    "packages/locale/index.ts": "cb72932498036475f3655e5e352185cf2f42f54b89e0612c283b2bfaa1710a33",
+    "packages/locale/lang/en.ts": "08f745632d6e3143113372a74d83b6ee80da1554e5826efc3deb13469fbded15",
+    "packages/locale/lang/zh-cn.ts": "b80cb59a25b37e266b77d2db9f0b3748269369011a1dc64eed48520ab3f75c1b",
+    "packages/locale/lang/zh-tw.ts": "6d622285ce58a658e2fc5433b1fc4e5b775f5a2cbc50d54879961047fbc9fd04",
+    "packages/types/index.ts": "c563a341733a605e3fc625ad65acfbfb408b9ba629721ab51e5341fff37b65e4",
+    "packages/types/loading-config.ts": "39ab3ded9f7393171b67c8fea34bfe879b93e8f4a4451be6110926bceb846cb4",
+    "packages/types/locale.ts": "b771c6e2f0ca1e9880f60245c761eb8f2d76536ce551a151b70d66308cd6e57c",
+    "packages/types/pagination.ts": "dea9a1fb770d9e908acdd69f4098820b38141814e4190f04b0e682f18e0931a7",
+    "packages/types/table-column.ts": "0a7947e5a6cb7082f828b297c9b4d30085827379e2ce65eee378e0a949b48a74",
+    "packages/types/table-props.ts": "7f16583e23614fba5ce598339b68ddcdc2ff2b794fb2508ebdf02d465c0348f9"
+  },
+  "npmIntegrityVerified": true,
+  "npmTarballSha256": "351200a096ff70c7fb94900982b78344a17c17dc6810d66d965bbc6c38473eb8"
+}

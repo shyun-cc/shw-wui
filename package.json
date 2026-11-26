@@ -1,0 +1,19 @@
+{
+  "name": "shw-wui-monorepo",
+  "private": true,
+  "packageManager": "pnpm@11.0.9",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "pnpm -r --workspace-concurrency=1 run build",
+    "typecheck": "pnpm -r run typecheck",
+    "build:demo": "pnpm --filter @shwkj/shw-wui-demo... run build",
+    "dev": "pnpm --filter @shwkj/shw-wui-demo dev",
+    "version:check": "node tools/version.mjs check",
+    "version:set": "node tools/version.mjs set"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}

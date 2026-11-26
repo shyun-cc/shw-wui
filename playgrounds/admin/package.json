@@ -1,0 +1,23 @@
+{
+  "name": "@shwkj/shw-wui-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vue-tsc --noEmit && vite build",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@shwkj/shw-wui": "workspace:*",
+    "vue": "3.5.22",
+    "element-plus": "2.11.5",
+    "vue-router": "4.6.3",
+    "pinia": "3.0.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "6.0.1",
+    "vite": "7.1.0",
+    "vue-tsc": "3.1.0",
+    "typescript": "5.9.3"
+  }
+}

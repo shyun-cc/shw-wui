@@ -1,0 +1,25 @@
+{
+  "package": "@pureadmin/descriptions",
+  "version": "1.2.1",
+  "repository": "https://github.com/pure-admin/pure-admin-descriptions",
+  "commit": "be4215bba8bcba193ea590b18e16681e1e948eba",
+  "archiveSha256": "e46bdd3e8536f30bc42f9a5f37c62043cdc67a40cc68665d332668a7eed574f8",
+  "npmIntegrity": "sha512-7jDJuqz8xnhcmwXdWQnBzOYeX2WK27TRFaVgs9AdiRr+DnKb9W+krHByJwQtxo5lg4qyRh4/IWQGEMfhC2ljeQ==",
+  "npmIntegrityStatus": "Verified against downloaded descriptions-1.2.1.tgz",
+  "files": {
+    "LICENSE": "0570e976355286648229b69aa1ba7a222e53f25c6b4ffe14f97deddfaf1bd935",
+    "package.json": "9ffc871497fca31cac83bf865ddf70ef6d61f341ceac3fed1f22c85162d2c587",
+    "packages/components/check.svg": "290290136285df2ce05f485db99742dfa491fe43d906ea3c749479e7c26cc1a5",
+    "packages/components/copy.svg": "3860a297fd0c094ebbf2ac5179c18be073aab7776a6034c3895c11475343d93a",
+    "packages/components/descriptions/index.tsx": "bad9e3299a88f1dda5cc74e02098b35b2afa069eb2fdea44c6cd0fae2225cd3a",
+    "packages/components/descriptions/props.ts": "be04ebb4debdf349315c6af5c7c52dfbb290cd24844a9492cbab1a846a38912b",
+    "packages/components/renderer.tsx": "742db25371e15dc20b3e2f9e13b7ba71151ce4f6d1db28cd7cee5026a772b200",
+    "packages/index.ts": "ceb79a9cc16de915e59324561ea0599f5baf6b90bb413cf22991010ac44c078f",
+    "packages/types/index.ts": "b435d2585fe47b0e127cef7c5d33826808981f0fa897aa2efc21ac328d76c60a",
+    "src/App.vue": "81b658696040d9840be834aee0619b9469896e2f0ae2b917c30c6f0af1276c9f",
+    "src/columns.tsx": "18d117465629ca8df1a0374050e1b1b309b6c029ecbc331921dc8d7edad71ce2",
+    "src/env.d.ts": "28d549abb6dc82c1cb03f56260054c4e719dacc61077165bfa713785620dee71",
+    "src/main.ts": "14efbcaca593b06de0ae94568ffc04d536a50bb14e1726c9d98bd0eaf4365760"
+  },
+  "npmTarball": "https://registry.npmjs.org/@pureadmin/descriptions/-/descriptions-1.2.1.tgz"
+}
